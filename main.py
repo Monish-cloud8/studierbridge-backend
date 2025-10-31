@@ -31,7 +31,10 @@ app.add_middleware(
     CORSMiddleware,
     allow_origins=[
         "http://localhost:3000",
-        "http://10.0.0.23:3000"
+        "http://10.0.0.23:3000",
+        "https://studierbridge.vercel.app",
+        "https://studierbridge-git-main-monish-cloud8s-projects.vercel.app",
+        "https://studierbridge-*.vercel.app"
     ],
     allow_credentials=True,
     allow_methods=["*"],
